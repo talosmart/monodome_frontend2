@@ -1,0 +1,68 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins' sans-serif !important;
+  font-style: normal !important;
+}
+
+#sidebar{
+  background-image: url('/img/sidebar.png');
+  /* width: 270px; */
+  height: 530px;
+}
+
+.bar {
+  padding: 10px 30px;
+  margin: 10px;
+  color: #333;
+  background: #fafafa;
+  border: none !important;
+}
+
+/* (C) ICONS */
+i.ico {
+  display: inline-block;
+  width: 20px;
+  text-align: center; 
+  font-style: normal;
+  font-weight: bold;
+}
+
+.success {
+  color: #2b7515;
+  background: #E0F1CB;
+  border: 0.4px solid #2b7515b9;
+  /* width: 500px; */
+}
+
+input.form-control{
+  height: 45px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width:768px) {
+  #sidebar{
+    border-radius: 0px !important;
+    height: 100vh;
+  }
+}
+
+.btn-success{
+  background-color: #00902F;
+}
+
+.form-group label{
+  color: #808080;
+}
