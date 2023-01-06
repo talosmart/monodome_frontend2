@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from './common/Navbar'
 import Sidebar from './common/Sidebar'
-import Body from './homeComponents/Body'
+import Body from './Components/homeComponents/Body'
 
 export default function Home() {
   return (

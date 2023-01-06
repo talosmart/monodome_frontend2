@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Sidebar from './common/Sidebar'
-import Body from './loadComponent/Body'
+import Body from './Components/loadComponent/Body'
 
 export default function Loads() {
   return (

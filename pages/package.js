@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Sidebar from './common/Sidebar'
-import Body from './packageComponent/Body'
+import Body from './Components/packageComponent/Body'
 
 export default function Packages() {
   return (
